@@ -19,7 +19,8 @@
     "mysql": "^2.18.1"
   },
   "optionalDependencies": {
-    "fsevents": "x.x.x"
+    "fsevents": "x.x.x",
+    "esbuild-android-64": "^x.x.x"
   },
   "author": {
     "name": "A Strapi developer"
