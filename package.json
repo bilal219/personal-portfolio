@@ -16,11 +16,12 @@
     "@strapi/strapi": "4.10.2",
     "better-sqlite3": "8.0.1",
     "karma": "^6.4.2",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "pg": "^8.10.0"
   },
   "optionalDependencies": {
-    "fsevents": "x.x.x",
-    "esbuild-android-64": "^x.x.x"
+    "esbuild-android-64": "^x.x.x",
+    "fsevents": "x.x.x"
   },
   "author": {
     "name": "A Strapi developer"
