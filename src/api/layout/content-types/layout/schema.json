@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "Layout"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LogoName": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Link": {
+      "displayName": "MenuLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-links.menu-links"
+    },
+    "SocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.social-links"
+    }
+  }
+}

@@ -4,15 +4,27 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home"
+    "displayName": "Home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "heading": {
-      "type": "string"
+    "HomePage": {
+      "type": "dynamiczone",
+      "components": [
+        "home-component.home",
+        "about.about",
+        "skills.skills",
+        "qualification.qualification",
+        "services.services",
+        "portfolio.portfolio",
+        "projects.projects",
+        "testimonial.testimonial",
+        "contact.contact"
+      ]
     }
   }
 }

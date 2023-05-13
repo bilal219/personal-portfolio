@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_skills_skills",
+  "info": {
+    "displayName": "Skills"
+  },
+  "options": {},
+  "attributes": {
+    "SkillsTitle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-section.title-section"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_slider_card_slider_cards",
+  "info": {
+    "displayName": "SliderCard"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

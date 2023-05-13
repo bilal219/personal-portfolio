@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_title_contact_titles",
+  "info": {
+    "displayName": "ContactTitle"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "IconClass": {
+      "type": "string"
+    }
+  }
+}

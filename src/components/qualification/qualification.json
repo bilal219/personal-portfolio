@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_qualification_qualifications",
+  "info": {
+    "displayName": "Qualification"
+  },
+  "options": {},
+  "attributes": {
+    "QualificationTitle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-section.title-section"
+    }
+  }
+}

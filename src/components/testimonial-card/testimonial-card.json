@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_testimonial_card_testimonial_cards",
+  "info": {
+    "displayName": "TestimonialCard"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

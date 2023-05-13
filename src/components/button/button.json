@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_button_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonUrl": {
+      "type": "string"
+    },
+    "Target": {
+      "type": "enumeration",
+      "enum": [
+        "New Tab",
+        "Current"
+      ]
+    },
+    "IconClass": {
+      "type": "string"
+    }
+  }
+}

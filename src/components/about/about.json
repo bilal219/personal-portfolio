@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "Titlesection": {
+      "displayName": "TitleSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "title-section.title-section"
+    },
+    "AboutImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true
+    },
+    "AboutDescription": {
+      "type": "text"
+    },
+    "Achievement": {
+      "displayName": "Achievements",
+      "type": "component",
+      "repeatable": true,
+      "component": "achievements.achievements"
+    },
+    "Resume": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "AboutButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}
