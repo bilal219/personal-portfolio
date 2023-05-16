@@ -1,20 +1,20 @@
 {
-  "collectionName": "components_testimonial_testimonials",
+  "collectionName": "components_template_contacts",
   "info": {
-    "displayName": "Testimonial"
+    "displayName": "Contact",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "TitleSubtitle": {
       "type": "component",
       "repeatable": false,
       "component": "title-section.title-section"
     },
-    "Card": {
-      "displayName": "TestimonialCard",
+    "ContactTitle": {
       "type": "component",
       "repeatable": true,
-      "component": "testimonial-card.testimonial-card"
+      "component": "contact-title.contact-title"
     }
   }
 }

@@ -12,18 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "HomePage": {
+    "Template": {
       "type": "dynamiczone",
       "components": [
-        "home-component.home",
-        "about.about",
-        "skills.skills",
-        "qualification.qualification",
-        "services.services",
-        "portfolio.portfolio",
-        "projects.projects",
-        "testimonial.testimonial",
-        "contact.contact"
+        "template.home",
+        "template.about",
+        "template.skills",
+        "template.qualification",
+        "template.services",
+        "template.portfolio",
+        "template.project",
+        "template.testimonial",
+        "template.contact"
       ]
     }
   }

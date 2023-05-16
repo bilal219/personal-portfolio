@@ -1,20 +1,19 @@
 {
-  "collectionName": "components_projects_projects",
+  "collectionName": "components_template_portfolios",
   "info": {
-    "displayName": "Projects",
-    "description": ""
+    "displayName": "Portfolio"
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "TitleSubtitle": {
       "type": "component",
       "repeatable": false,
       "component": "title-section.title-section"
     },
-    "Button": {
+    "Card": {
       "type": "component",
       "repeatable": false,
-      "component": "button.button"
+      "component": "slider-card.slider-card"
     }
   }
 }

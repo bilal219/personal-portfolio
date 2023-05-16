@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_skills_skills",
+  "collectionName": "components_template_services",
   "info": {
-    "displayName": "Skills"
+    "displayName": "Services"
   },
   "options": {},
   "attributes": {
-    "SkillsTitle": {
+    "TitleDescription": {
       "type": "component",
       "repeatable": false,
       "component": "title-section.title-section"

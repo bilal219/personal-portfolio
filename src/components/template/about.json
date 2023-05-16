@@ -1,44 +1,41 @@
 {
-  "collectionName": "components_about_abouts",
+  "collectionName": "components_template_abouts",
   "info": {
     "displayName": "About"
   },
   "options": {},
   "attributes": {
-    "Titlesection": {
-      "displayName": "TitleSection",
+    "TitleSubtitle": {
       "type": "component",
       "repeatable": false,
       "component": "title-section.title-section"
     },
-    "AboutImage": {
+    "Description": {
+      "type": "text"
+    },
+    "Experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.experience"
+    },
+    "Image": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "private": true
+      "multiple": false
     },
-    "AboutDescription": {
-      "type": "text"
-    },
-    "Achievement": {
-      "displayName": "Achievements",
+    "Button": {
       "type": "component",
-      "repeatable": true,
-      "component": "achievements.achievements"
+      "repeatable": false,
+      "component": "button.button"
     },
-    "Resume": {
+    "ResumeOrFile": {
       "allowedTypes": [
         "files"
       ],
       "type": "media",
       "multiple": false
-    },
-    "AboutButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
     }
   }
 }

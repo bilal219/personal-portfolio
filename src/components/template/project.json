@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_template_projects",
+  "info": {
+    "displayName": "Project"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial-card.testimonial-card"
+    }
+  }
+}

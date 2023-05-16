@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_template_homes",
+  "info": {
+    "displayName": "Home"
+  },
+  "options": {},
+  "attributes": {
+    "FirstPhrase": {
+      "type": "string"
+    },
+    "PhraseList": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "SocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.social-links"
+    }
+  }
+}

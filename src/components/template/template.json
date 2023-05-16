@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_template_templates",
+  "info": {
+    "displayName": "Template"
+  },
+  "options": {},
+  "attributes": {
+    "Home": {
+      "displayName": "Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "template.home"
+    }
+  }
+}

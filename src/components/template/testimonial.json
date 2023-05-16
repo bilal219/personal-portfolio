@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_services_services",
+  "collectionName": "components_template_testimonials",
   "info": {
-    "displayName": "Services"
+    "displayName": "Testimonial"
   },
   "options": {},
   "attributes": {
-    "ServicesTitle": {
+    "TitleSubtitle": {
       "type": "component",
       "repeatable": false,
       "component": "title-section.title-section"
