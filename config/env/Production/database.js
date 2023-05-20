@@ -1,13 +1,18 @@
+// strapi-api/config/database.js
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: env("PGHOST", "127.0.0.1"),
-      port: env.int("PGPORT", 5931),
-      database: env("PGDATABASE", "railway"),
-      user: env("PGUSER", "postgres"),
-      password: env("PGPASSWORD", "password"),
-      ssl: env.bool(true),
+      host: env("DATABASE_HOST", "localhost"),
+      port: env.int("DATABASE_PORT", 5432),
+      database: env("DATABASE_NAME", "bank"),
+      user: env("DATABASE_USERNAME", "postgres"),
+      password: env("DATABASE_PASSWORD", "0000"),
+      schema: env("DATABASE_SCHEMA", "public"), // Not required
+      ssl: {
+        ca: env("DATABASE_CA"),
+      },
     },
+    debug: false,
   },
 });
