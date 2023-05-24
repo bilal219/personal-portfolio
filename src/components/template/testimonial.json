@@ -7,7 +7,7 @@
   "attributes": {
     "TitleSubtitle": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "title-section.title-section"
     }
   }
